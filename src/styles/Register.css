@@ -1,0 +1,37 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register {
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+}
+
+button {
+    padding: 0.4rem;
+    width: 100%;
+    background-color: #ffb95c;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #ff980f;
+    transition: all 0.5s ease-in;
+}
